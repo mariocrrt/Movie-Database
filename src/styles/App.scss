@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.card_list {
+  padding: 20px;
+}
+
+form {
+  display: grid;
+  padding: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+}
+
+input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+  margin-bottom: 1rem;
+  max-width: 700px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+button {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  max-width: 700px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.button_inactive {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  max-width: 700px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, .75);
+}
+
+.conditional_message {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
